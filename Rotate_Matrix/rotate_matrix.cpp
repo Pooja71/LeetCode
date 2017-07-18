@@ -1,7 +1,8 @@
 /*You are given an n x n 2D matrix representing an image.
 Rotate the image by 90 degrees (clockwise). You have to do it in-place.
 Solution:
-Consider each concentric square at a time and rotate all elements in that square ring before going deeper. When you displace one element to put in its right place, you consecutively displace all the other along the four sides.
+Consider each concentric square at a time and rotate all elements in that square ring before going deeper. 
+When you displace one element to put in its right place, you consecutively displace all the other along the four sides.
 */
 #include <iostream>
 #include <vector>
